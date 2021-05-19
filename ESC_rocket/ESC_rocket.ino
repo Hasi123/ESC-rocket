@@ -13,11 +13,11 @@ The output is PWM controlled to limit the current*/
 
 //configure these too:
 #define nFET 1 //high side nFet?
-byte pwm_cycle = 45; //the duty cycle: between 0 (always off) and 255 (always on).
+const byte pwm_cycle = 45; //the duty cycle: between 0 (always off) and 255 (always on).
 
 unsigned int duration = 0;
-byte pin[] = {AL, BL, CL, AH, BH, CH};
-byte pulse = B00000000;
+const byte pin[] = {AL, BL, CL, AH, BH, CH};
+volatile byte pulse = B00000000;
 
 void setup() {
   //init timer
