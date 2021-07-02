@@ -1,5 +1,5 @@
 # ESC-rocket
-I converted an ESC to fire two rockers off an RC airplane using a piece of resistance wire.
+I converted an ESC to fire two rockets off an RC airplane using a piece of resistance wire.
 
 The way it works is like so:
 The rockets are ignited using a piece of resistance wire.
